@@ -2,7 +2,7 @@
     $servername = "localhost";
     $username = "root";
     $password = "";
-    $dataBase = "armaan";
+    $dataBase = "dbArmaan";
     $conn = mysqli_connect($servername,$username,$password,$dataBase);//this takes 3 arguments
     if(!$conn){
         die("Sorry We failed to connect" . mysqli_connect_error());
