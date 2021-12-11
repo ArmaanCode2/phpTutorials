@@ -24,7 +24,6 @@
   }
   
   #bt{
-  
   width: fit-content;
   font-family: "Lato";
   text-transform: uppercase;
@@ -60,6 +59,22 @@
 
   .inp2{
     height: 50px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    #h1{
+      font-size: 25px;
+      color:red;
+    }
+    #d1{
+      padding: 31px;
+    }
+    .inp2{
+    width: 250px;
+    }
+    .inp{
+    width: 250px;
+    }
   }
   </style>
   </head>
