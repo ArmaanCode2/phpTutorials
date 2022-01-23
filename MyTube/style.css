@@ -25,10 +25,10 @@
   }
   
   #logo{
-    margin-top: 20px;
-    margin-left: 30px;
-    width:170px;
+    margin-top: 5px;
+    margin-left: 55px;
     cursor: pointer;
+    font-size: 22px;
   }
   
   #h{
@@ -211,42 +211,40 @@
     cursor: pointer;
   }
   
+  #vidsec{
+  display: grid;
+  grid-template-columns: repeat(4,280px);
+  }
+
   #vid1{
     margin-left: 22px;
-    margin-top: 7px;
+    margin-top: 22px;
     height: 233px;
     cursor: pointer;
-  }
-  
-  #vid1 img{
-    display: flex;
   }
   
   .vidlogo{
   width: 30px;
   float:left;
   margin-top: 10px;
+  border-radius: 20px;
   }
   
-  #p1 p{
+  #p{
     float: left;
     margin-left: 10px;
     margin-bottom: 20px;
   }
   
   #allvid{
-    height: 500px;
-    width: 1130px;
+  height: 500px;
+  width: 1150px;
   position: absolute;
   margin-left: 208px;
   margin-top: 30px;
-   overflow-y: auto;
-   display: flex;
+  overflow-y: auto;
   background-color: #f9f9f9;
-   justify-content: space-between;
-  }
-  #allvid #vidsec{
-  float: left;
+  justify-content: space-between;
   }
   
   #allvid::-webkit-scrollbar{
@@ -254,7 +252,6 @@
   }
   
   #allvid::-webkit-scrollbar-thumb{
-    background: transparent;
     border-radius: 10px;
   }
   
